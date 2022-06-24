@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravAller</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+
+</head>
+<body>
+
+    
+<!---------------- Шапка страницы ----------->
+
+<header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"><span>T</span>ravAlLer</a>
+
+    <nav class="navbar">
+        <a href="#main">Главная</a>
+        <a href="#book">Бронь</a>
+        <a href="#packages">Услуги</a>
+        <a href="#services">Как Работаем</a>
+        <a href="#gallery">Галерея</a>
+        <a href="#review">Отзывы</a>
+        <a href="#contact">Контакты</a>
+    </nav>
+
+
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here...">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+</header>
+        
+
+<!------------- Главная --------------->
+<section class="home" id="main">
+
+    <div class="content">
+        <h3>Пришло время исследовать мир</h3>
+        <p>Открывайте новые места вместе с Нами</p>
+        <a href="#" class="btn">Узнать Больше</a>
+    </div>
+    
+    <div class="controls">
+        <span class="vid-btn active" data-src="images/vid-1.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-2.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-3.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-4.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-5.mp4"></span>
+    </div>
+
+    <div class="video-container">
+        <video src="images/vid-2.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+
+    
+</section>
+
+<!------------- Главная --------------->
+
+<!--------- Бронь-------------->
+
+<section class="book" id="book">
+
+    <h1 class="heading">
+        <span>б</span>
+        <span>р</span>
+        <span>о</span>
+        <span>н</span>
+        <span>ь</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/mayak.svg" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <h3>куда</h3>
+                <input type="text" placeholder="Название">
+            </div>
+            <div class="inputBox">
+                <h3>Сколько людей</h3>
+                <input type="number" placeholder="кол.во">
+            </div>
+            <div class="inputBox">
+                <h3>Дата Прибытия</h3>
+                <input type="date">
+            </div>
+            <div class="inputBox">
+                <h3>Дата Вылета</h3>
+                <input type="date">
+            </div>
+            <input type="submit" class="btn" value="Бронировать">
+        </form>
+
+    </div>
+
+</section>
+
+<!--------- Бронь-------------->
+
+<!---------- Услуги  -------------->
+
+<section class="packages" id="packages">
+
+    <h1 class="heading">
+        <span>у</span>
+        <span>с</span>
+        <span>л</span>
+        <span>у</span>
+        <span>г</span>
+        <span>и</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/elbrus.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Эльбрус </h3>
+                <p>Бальнеоклиматическая курортная местность в Кабардино-Балкарии, район центрального Кавказа, ближайшие окрестности у подножия высочайшей горы Европы.</p>
+               
+                <div class="price"> 8000 Р <span>10.000 Р</span> </div>
+                <a href="#" class="btn">Узнать Больше</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/kezeinam.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Кезеной-ам </h3>
+                <p>Живописное озеро Кезеной-ам (встречаются написания Кезенойам и Казеной-ам) расположено с южной стороны склона Андийского хребта в зоне субальпийских лугов.</p>
+                <div class="price"> 8000 Р <span>10.000 Р</span> </div>
+             
+                
+                <a href="#" class="btn">Узнать Больше</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/hibini.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Хибины </h3>
+                <p>Крупнейший горный массив на Кольском полуострове. Геологический возраст - около 390 млн лет. Вершины платообразные, склоны крутые с отдельными снежниками.</p>
+        
+                <div class="price"> 8000 Р <span>10.000 Р</span> </div>
+                <a href="#" class="btn">Узнать Больше</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!---------- Услуги  -------------->
+
+<!----------- Как Работаем ------------->
+
+<section class="services" id="services">
+
+    <h1 class="heading">
+        <span>к</span>
+        <span>а</span>
+        <span>к</span>
+        <span class="space"></span>
+        <span>р</span>
+        <span>а</span>
+        <span>б</span>
+        <span>о</span>
+        <span>т</span>
+        <span>а</span>
+        <span>е</span>
+        <span>м</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-address-card"></i>
+            <h3>Вы оставляете заявку на тур</h3>
+            <p>Посмотрите куда бы вы хотели отправиться и оставьте заявку </p>
+        </div>
+        <div class="box">
+            <i class="fas fa-users"></i>
+            <h3>Ищем вам группу</h3>
+            <p>Мы собираем группу из 10-15 человек на тур,поэтому уходит время на поиск подходящей для вас компании</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-phone"></i>
+            <h3>Подтверждение и общение</h3>
+            <p>Перед оплатой мы связываемся  с вами и обговариваем все нюансы</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-credit-card"></i>
+            <h3>Оплата</h3>
+            <p>Вы вносите полную стоимость за весь тур.дополнительные услуги обговариваются с организатором</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-car"></i>
+            <h3>Выезд</h3>
+            <p>Автобус забирает вас по назначенному адресу и вы  отправляетесь в путь</p>
+        </div>
+       
+
+    </div>
+
+</section>
+
+<!----------- Как Работаем ------------->
+
+<!------------- Галерея ---------------->
+
+<section class="gallery" id="gallery">
+
+    <h1 class="heading">
+        <span>г</span>
+        <span>а</span>
+        <span>л</span>
+        <span>е</span>
+        <span>р</span>
+        <span>е</span>
+        <span>я</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/altai.jpg" alt="">
+            <div class="content">
+                <h3>Красивые Места</h3>
+                <p></p>
+                <a href="#" class="btn">посмотреть больше</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/gornialtai.jpg" alt="">
+            <div class="content">
+                <h3>Красивые Места</h3>
+                <p></p>
+                <a href="#" class="btn">посмотреть больше</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/ozeroseliger.jpg" alt="">
+            <div class="content">
+                <h3>Красивые Места</h3>
+                <p></p>
+                <a href="#" class="btn">посмотреть больше</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/buxtabaikal.jpg" alt="">
+            <div class="content">
+                <h3>Красивые Места</h3>
+                <p></p>
+                <a href="#" class="btn">посмотреть больше</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/ludi.jpg" alt="">
+            <div class="content">
+                <h3>Красивые Места</h3>
+                <p>Смотрите и делитесь фотографиями .</p>
+                <a href="#" class="btn">посмотреть больше</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/lastochka.jpg" alt="">
+            <div class="content">
+                <h3>Красивые Места</h3>
+                <p></p>
+                <a href="#" class="btn">посмотреть больше</a>
+            </div>
+        </div>
+
+
+    </div>
+
+</section>
+
+<!------------- Галерея ---------------->
+
+<!-------------- Отзывы ---------------->
+
+<section class="review" id="review">
+
+    <h1 class="heading">
+        <span>о</span>
+        <span>т</span>
+        <span>з</span>
+        <span>ы</span>
+        <span>в</span>
+        <span>ы</span>
+    </h1>
+
+    <div class="swiper-container review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/pic1.png" alt="">
+                    <h3>Елена</h3>
+                    <p></p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-------------- Отзывы ---------------->
+
+<!----------- Контакты  ---------------->
+
+<section class="contact" id="contact">
+    
+    <h1 class="heading">
+        <span>к</span>
+        <span>о</span>
+        <span>н</span>
+        <span>т</span>
+        <span>а</span>
+        <span>к</span>
+        <span>т</span>
+        <span>ы</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/contact-img.svg" alt="">
+        </div>
+
+        <script type="text/javascript">var submitted=false;</script>
+<iframe name="hidden_iframe" id="hidden_iframe"
+style="display:none;" onload="if(submitted)
+{window.location='http://travaller.tk/#services';}"></iframe>
+<form action="https://docs.google.com/forms/d/e/1FAIpQLScbYPpbxS7kWsNsGny3KvTD7MNy1SjjGpwTD_3HLeCe3DJGUQ/formResponse" method="post"
+target="hidden_iframe" onsubmit="submitted=true;">
+
+            <div class="inputBox">
+                <input type="text" name="entry.819145188"  placeholder="Имя">
+                <input type="email" name="entry.1914598183" placeholder="Почта">
+            </div>
+            <div class="inputBox">
+                <input type="number" name="entry.2132853357"  placeholder="Номер">
+            
+            </div>
+            <textarea placeholder="Сообщение" name="entry.785131320" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="Отправить">
+        </form>
+
+    </div>
+    
+</section>
+
+<!----------- Контакты  ---------------->
+
+
+<!------------ Подвал  ------------>
+
+<section class="podval">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>ВРЕМЯ РАБОТЫ</h3>
+            <p>ПН-ПТ: 9:00-19:00 </p>
+            <p>СБ-ВС: 10:00-17:00</p>
+            <p>В эти часы мы активно отвечаем, но написать нам или оставить заявку вы можете в любое время суток :)</p>
+        </div>
+        <div class="box">
+            <h3>Локации</h3>
+            <a href="#">Регионы РФ</a>
+
+        </div>
+        <div class="box">
+            <h3>Ссылки</h3>
+            <a href="#">Главная</a>
+            <a href="#">Бронь</a>
+            <a href="#">Услуги</a>
+            <a href="#">Как Работаем</a>
+            <a href="#">Галерея</a>
+            <a href="#">Новости</a>
+            <a href="#">Контакты</a>
+        </div>
+        <div class="box">
+            <h3>Следите за Нами</h3>
+            <a href="https://vk.com/public214140197">ВК</a>
+            <a href="https://t.me/+Do5UVMT4xIxjMjAy">Телеграмм</a>
+            <a href="#">Whats App</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!------------ Подвал  ------------>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+
+<script src="/script.js"></script>
+
+
+
+</body>
+</html>
